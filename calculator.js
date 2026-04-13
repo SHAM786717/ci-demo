@@ -1,9 +1,9 @@
-function add(a, a) {
-    return a +a;
+function add(a, b) {
+    return a +b;
 }
 
-function subtract(a, a) {
-    return a - a;
+function subtract(a, b) {
+    return a - b;
 }
 
 module.exports = { add, subtract };
